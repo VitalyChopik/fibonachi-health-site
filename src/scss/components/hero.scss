@@ -301,7 +301,7 @@
     }
 
     .hero__bg-inside {
-      animation: animation-1 5s linear forwards;
+      animation: animation-1 10s linear forwards infinite;
       opacity: 0.4;
       max-width: rem(785);
     }
@@ -309,11 +309,11 @@
     .hero__bg-outside {
       opacity: 0.6;
       max-width: rem(850);
-      animation: animation-2 5s linear forwards;
+      animation: animation-2 10s linear forwards infinite;
     }
 
     .hero__bg-blur {
-      animation: animation-1 5s linear forwards;
+      animation: animation-1 10s linear forwards infinite;
       max-width: rem(944);
 
     }
@@ -364,7 +364,7 @@
   }
 
   100% {
-    transform: rotate(130deg);
+    transform: rotate(359deg);
   }
 }
 
@@ -375,6 +375,6 @@
   }
 
   100% {
-    transform: rotate(-115deg);
+    transform: rotate(-359deg);
   }
 }

@@ -91,6 +91,7 @@ function initSliders() {
 					effect: 'fade',
 					spaceBetween: 8,
 				});
+				heroSliderInstance.slideTo(1, 0);
 			}
 		}
 

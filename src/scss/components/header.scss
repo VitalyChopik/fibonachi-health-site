@@ -21,5 +21,10 @@
   &__logo {
     max-width: rem(220);
     margin-bottom: -5px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
