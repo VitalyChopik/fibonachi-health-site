@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.5s;
+  background: rgba($color: #000000, $alpha: 0);
+
+  .header-is-sticky & {
+    background: rgba($color: #000000, $alpha: 1.0);
+  }
+
+  &__container {
+    max-width: rem(1340);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.50);
+  }
+
+  &__logo {
+    max-width: rem(220);
+    margin-bottom: -5px;
+  }
+}

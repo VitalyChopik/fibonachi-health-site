@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Главная'
+})
+
+<body class="white__body">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2S4MJWD" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page">
+      <div data-observ></div>
+      @@include('html/hero.html')
+      @@include('html/partners.html')
+
+    </main>
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/script.html')
+</body>
+
+</html>
